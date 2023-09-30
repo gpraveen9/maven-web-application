@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://192.168.13.167:9000/</sonar.host.url>
-		<sonar.login>sqa_fb102eb7d48f1e60db730fc1dbff49cc9a473ffc</sonar.login>
+		<sonar.login>sqa_49edda00cb8620d6fe9c36e0a819c052d5569e85</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -43,6 +43,13 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		        <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+                <dependency>
+                        <groupId>org.sonarsource.scanner.maven</groupId>
+                        <artifactId>sonar-maven-plugin</artifactId>
+                        <version>3.10.0.2594</version>
+                </dependency>
+
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -97,7 +104,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://192.168.13.167:8081/repository/facebook-releases/</url>
+	      <url>http://192.168.13.167:8081/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
