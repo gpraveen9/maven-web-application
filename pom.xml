@@ -89,7 +89,14 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-		
+		<!-- deploye  -->
+                <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+                <dependency>
+                       <groupId>org.apache.maven.plugins</groupId>
+                       <artifactId>maven-deploy-plugin</artifactId>
+                       <version>3.1.1</version>
+		       <repositoryId>nexus</repositoryId>
+                </dependency>		
 		
 	</dependencies>
 	
