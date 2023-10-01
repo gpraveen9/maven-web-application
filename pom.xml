@@ -90,6 +90,7 @@
 			<scope>provided</scope>
 		</dependency>
 		
+		
 	</dependencies>
 	
 	<distributionManagement>
@@ -145,6 +146,10 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+			<plugin>
+                           <groupId>org.apache.maven.plugins</groupId>
+                           <artifactId>maven-deploy-plugin</artifactId>
+                         </plugin>
 			
 </plugins>
 	</build>
